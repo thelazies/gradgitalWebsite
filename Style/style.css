@@ -1,0 +1,450 @@
+@font-face{font-family:'SourceSans';src:url(www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-regular-webfont.eot);src:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-regular-webfont.eot?#iefix) format("embedded-opentype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-regular-webfont.woff) format("woff"),url(./font/SourceSansPro-Regular.ttf) format("truetype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-regular-webfont.svg#jubilat_extra_light) format("svg")}
+@font-face{font-family:'SourceSans-Light';src:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-light-webfont.eot);src:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-light-webfont.eot?#iefix) format("embedded-opentype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-light-webfont.woff) format("woff"),url(./font/SourceSansPro-Light.ttf) format("truetype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-light-webfont.svg#jubilat_extra_light) format("svg")}
+@font-face{font-family:'SourceSans-Bold';src:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-bold-webfont.eot);src:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-bold-webfont.eot?#iefix) format("embedded-opentype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-bold-webfont.woff) format("woff"),url(./font/SourceSansPro-Bold.ttf) format("truetype"),url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/fonts/sourcesanspro-bold-webfont.svg#jubilat_extra_light) format("svg")}
+#suiteBar *,#s4-ribbonrow *,.ms-dlgContent *,#suiteBar,#s4-ribbonrow,.ms-dlgContent,.ms-webpart-menuLink{-webkit-box-sizing:content-box!important;-moz-box-sizing:content-box!important;box-sizing:content-box!important}
+.ms-dlgContent{position:fixed}
+td#MSOTlPn_MainTD{position:absolute;right:30px;z-index:9999;top:0;width:330px!important}
+td#MSOTlPn_MainTD table{width:100%!important}
+#Ribbonrow input,td#MSOTlPn_MainTD input{padding:0;margin:0;height:19px;border:1px solid #ccc;font-size:12px;width:auto}
+#s4-bodyContainer{padding:0}
+#s4-workspace{width:100%!important;height:100%!important;overflow:visible}
+#Ribbonrow{z-index:999;width:100%}
+#s4-ribbonrow{background:#efefef}
+.ms-webpartzone-cell{margin:0}
+span.ms-imnSpan{display:none}
+.container{position:relative}
+html,body{font-family:'SourceSans';font-size:16px;line-height:16px;color:#455565!important;margin:0!important;padding:0!important;height:100%;width:100%;min-width:320px;overflow-y:visible;position:relative}
+h1{font-size:56px;line-height:60px!important;color:#fff;font-family:'SourceSans-Light'}
+h1.BannerTitle{font-size:56px;text-align:center;color:#fff;z-index:12;position:absolute;top:40%;width:50%;left:50%;margin-left:-25%}
+h1.pageTitle{font-size:36px;margin:40px 0 0;color:#455565}
+h1.pageTitle.middle{text-align:center}
+h2{font-size:36px;color:#455565!important;font-family:'SourceSans-Light';line-height:36px!important}
+h3{font-size:26px;color:#455565;line-height:30px!important;font-family:'SourceSans-Light'}
+h4{font-size:20px;color:#455565!important;line-height:24px!important;font-family:'SourceSans';margin-bottom:5px}
+h5{font-size:20px;line-height:24px!important;font-family:'SourceSans-Bold'}
+h6{font-size:18px;line-height:22px!important;font-family:'SourceSans-Light'}
+span.ms-rteElement-Heading5{-ms-name:"Heading 5";font-family:'SourceSans-Bold';font-size:20px;line-height:20px}
+span.ms-rteElement-Heading6{-ms-name:"Heading 6";font-family:'SourceSans-Light';font-size:18px;line-height:18px}
+p,.ms-rtestate-field{margin-bottom:20px!important;line-height:22px!important}
+a,a:visited{color:#71bf43}
+.BlueLink{color:#0784c1!important;font-size:18px;background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/RightArrow-Blue.svg) no-repeat left top 3px;text-indent:15px;display:inline-block}
+.BlueLink:hover{cursor:pointer;text-decoration:underline!important}
+.WhiteLink{color:#fff!important;font-size:18px;background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Button-WhiteArrow.svg) no-repeat left top 3px;text-indent:15px;display:inline-block}
+.WhiteLink:hover{cursor:pointer;text-decoration:underline!important}
+ul{line-height:20px;padding-left:18px}
+.btn-primary{background:#71bf43 url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Button-WhiteArrow.svg) no-repeat left 10px center;padding:5px 20px 5px 30px;border:0 none;color:#fff!important}
+.btn-primary:hover,.btn-primary:active{background:#5F9A26 url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Button-WhiteArrow.svg) no-repeat left 10px center!important}
+.btn-primary:focus{box-shadow:0 0 0 .2rem rgba(113,191,67,.5);background-color:#5F9A26}
+.btn-secondary{background:#455565}
+.LightGrey{background:#f4f4f4}
+.DarkGrey{background:#36444f}
+.col,.col-1,.col-10,.col-11,.col-12,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-auto,.col-lg,.col-lg-1,.col-lg-10,.col-lg-11,.col-lg-12,.col-lg-2,.col-lg-3,.col-lg-4,.col-lg-5,.col-lg-6,.col-lg-7,.col-lg-8,.col-lg-9,.col-lg-auto,.col-md,.col-md-1,.col-md-10,.col-md-11,.col-md-12,.col-md-2,.col-md-3,.col-md-4,.col-md-5,.col-md-6,.col-md-7,.col-md-8,.col-md-9,.col-md-auto,.col-sm,.col-sm-1,.col-sm-10,.col-sm-11,.col-sm-12,.col-sm-2,.col-sm-3,.col-sm-4,.col-sm-5,.col-sm-6,.col-sm-7,.col-sm-8,.col-sm-9,.col-sm-auto,.col-xl,.col-xl-1,.col-xl-10,.col-xl-11,.col-xl-12,.col-xl-2,.col-xl-3,.col-xl-4,.col-xl-5,.col-xl-6,.col-xl-7,.col-xl-8,.col-xl-9,.col-xl-auto{min-height:0}
+.Overlay-Loader{position:fixed;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,0.3);z-index:9999}
+.Overlay-Loader .loader-circle{position:absolute;left:50%;top:50%;width:120px;height:120px;border-radius:50%;box-shadow:inset 0 0 0 1px rgba(255,255,255,0.3);margin-left:-60px;margin-top:-60px}
+.Overlay-Loader .loader-line-mask{position:absolute;left:50%;top:50%;width:60px;height:120px;margin-left:-60px;margin-top:-60px;overflow:hidden;-webkit-transform-origin:60px 60px;-moz-transform-origin:60px 60px;-ms-transform-origin:60px 60px;-o-transform-origin:60px 60px;transform-origin:60px 60px;-webkit-mask-image:-webkit-linear-gradient(top,#000,rgba(0,0,0,0));-webkit-animation:rotate 1.2s infinite linear;-moz-animation:rotate 1.2s infinite linear;-o-animation:rotate 1.2s infinite linear;animation:rotate 1.2s infinite linear}
+.Overlay-Loader .loader-line-mask .loader-line{width:120px;height:120px;border-radius:50%;box-shadow:inset 0 0 0 2px rgba(255,255,255,0.8)}
+@keyframes rotate {
+from{-ms-transform:rotate(0deg);-moz-transform:rotate(0deg);-webkit-transform:rotate(0deg);-o-transform:rotate(0deg);transform:rotate(0deg)}
+to{-ms-transform:rotate(360deg);-moz-transform:rotate(360deg);-webkit-transform:rotate(360deg);-o-transform:rotate(360deg);transform:rotate(360deg)}
+}
+#Header{height:95px;background:#455565;box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);z-index:14}
+#Header.Fixed{position:fixed;left:0;right:0;top:0}
+#Header .GreyBar{height:30px;width:100%;background:#36444f}
+#Header .GreyBar .RightLinksContainer{height:30px;width: auto;float:right}
+#Header .GreyBar .RightLinksContainer .support-dropdown, #Header .GreyBar .RightLinksContainer .ContactUs{display: inline-block;margin-right:-4px;vertical-align:top;}
+#Header .GreyBar .RightLinksContainer .support-dropdown {position: relative;display: inline-block;height:30px}
+#Header .GreyBar .RightLinksContainer .support-dropdown .support-dropdown-button {display:block;background:none;color: #fff;padding: 7px 10px;font-size: 16px;border: none;cursor: pointer;}
+#Header .GreyBar .RightLinksContainer .support-dropdown .support-dropdown-button.show {background: #fff;color:#455565}
+#Header .GreyBar .RightLinksContainer .support-dropdown .dropdown-content{display: none;position: absolute;background-color: #f9f9f9;min-width: 160px;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);z-index: 15;}
+#Header .GreyBar .RightLinksContainer .support-dropdown .dropdown-content a{padding: 12px 16px;text-decoration: none;display: block;}
+#Header .GreyBar .RightLinksContainer .support-dropdown .dropdown-content a:hover{font-weight: 700;color: #455565;text-decoration:underline}
+#Header .GreyBar .RightLinksContainer .support-dropdown .dropdown-content.show {display: block;}
+#Header .GreyBar .RightLinksContainer .ContactUs{color:#fff;padding:7px 10px;}
+#Header .GreenBlock{height:65px;width:50%;background-color:#71bf43;position:absolute;z-index:9}
+#Header .HeaderWrapper{height:65px;width:100%;z-index:14;position:relative}
+#Header .HeaderWrapper .HeaderContainer{height:65px;background:#455565;z-index:11}
+.HeaderContainer .Logo{background-color:#71bf43;height:65px;width:150px;padding-left:15px;margin-left:-15px}
+.HeaderContainer .Logo a{display:block;height:100%;width:100%}
+.HeaderContainer .Logo a img{padding:17px 16px}
+.HeaderContainer .Logo,.HeaderContainer .Navbar{display:inline-block;vertical-align:top}
+.HeaderContainer .Navbar{width:calc(100% - 150px)}
+.NavButtonWrapper,.MobileBack{display:none}
+nav.navbar{padding:0;position:inherit}
+nav.navbar .navbar-nav{height:65px}
+nav.navbar .navbar-nav .nav-item{position:inherit}
+nav.navbar .navbar-nav .nav-item .dropdown-toggle{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/DownArrow-White.svg) no-repeat right 10px top 31px}
+nav.navbar .navbar-nav .nav-item .dropdown-toggle::after{display:none}
+nav.navbar .navbar-nav .nav-item .nav-link{padding:25px 30px 24px 20px;color:#fff;font-family:'SourceSans';font-size:18px}
+nav.navbar .navbar-nav .nav-item .nav-link:hover{padding:25px 30px 21px 20px;border-bottom:3px solid #72bf44}
+nav.navbar .navbar-nav .nav-item .nav-link.current{padding:25px 30px 21px 20px;border-bottom:3px solid #72bf44}
+nav.navbar .navbar-nav .nav-item .dropdown-menu{left:0;right:0;margin:0;border-radius:0;border:0 none;box-shadow:0px 6px 10px -4px rgba(0,0,0,0.2), 0 6px 13px 0 rgba(0,0,0,0.19);padding:20px 15px 30px;min-height:350px}
+nav.navbar .navbar-nav .nav-item.show{background:#fff;color:#455565}
+nav.navbar .navbar-nav .nav-item.show .nav-link{color:#455565}
+nav.navbar .navbar-nav .nav-item.show .nav-link:hover{border-bottom:3px solid #fff}
+nav.navbar .navbar-nav .nav-item.show .dropdown-toggle{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/UpArrow-Grey.svg) no-repeat right 10px top 31px}
+nav.navbar .navbar-nav .nav-item.show .dropdown-menu .FeaturedItem{padding-bottom:40px}
+nav.navbar .navbar-nav .nav-item.show .dropdown-menu .FeaturedItem .ImageContainer{margin-bottom:20px}
+nav.navbar .navbar-nav .nav-item.show .dropdown-menu .FeaturedItem .ImageContainer img{width:100%}
+.DropdownHeading{color:#71bf43!important}
+.tabs{margin-right:20px;position:relative;width:100%;min-height:300px}
+.tabs .tab-wrapper{display: -ms-flexbox;display:flex;-ms-flex-wrap:wrap;flex-wrap:wrap;align-items:stretch;width:50%;border-right:solid 1px #75787b}
+.Wide .tabs .tab-wrapper{width:33%}
+.tabs .tab-wrapper a{display:block;width:100%;cursor:pointer;font-size:19px;color:#455565;padding:20px 0;background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/RightArrow-Grey.svg) no-repeat right 10px center}
+.tabs .tab-wrapper a.no-dropdown{background:none}
+.tabs .tab-wrapper a:hover,.tabs .tab-wrapper a.selected{font-weight:700;color:#455565;border-bottom:1px solid #75787b;padding:20px 0 19px}
+.tabs .content{position:absolute;top:0;right:0;width:0;height:100%;overflow:hidden;opacity:0;transition:opacity .1s linear 0}
+.tabs .content.visible{width:50%;opacity:1;padding:20px}
+.Wide .tabs .content.visible{width:66%;padding:0 20px}
+.tabs .content a{color:#455565;font-size:16px;padding-bottom:15px;display:block;line-height:18px}
+.Wide .tabs .content.wide a{width:50%;display:inline-block;margin-right:-4px;vertical-align:top}
+.tabs .content a:hover{font-weight:700}
+.secondlevel-header{display:none}
+.Hidden .MobileBack,.Hidden > h3{display:none!important}
+.TopicSection{background:#f6f7fb;padding-top:15px;padding-bottom:15px}
+#BreadCrumb{background:#f4f4f4;height:30px;font-size:12px;box-shadow:0 4px 10px 0 rgba(0,0,0,0.1),0 6px 20px 0 rgba(0,0,0,0.1)}
+#BreadCrumb .BreadCrumbInner{padding-top:7px;padding-bottom:7px}
+#BreadCrumb .BreadCrumbInner > span{margin-left:5px}
+#BreadCrumb .BreadCrumbInner > span > span:nth-child(even){display:none}
+#BreadCrumb .BreadCrumbInner > span > span:nth-child(odd){background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/RightArrow-Grey.svg) no-repeat right 6px center;padding-right:20px}
+#BreadCrumb .BreadCrumbInner > span > span.active{background:none;padding:0}
+.ShowCaseWrapper{position:relative;height:100%;background:#f4f4f4}
+.ShowCaseWrapper .ms-rtestate-field{margin:0!important;line-height: 0px !important;}
+.ShowCaseWrapper .Banner-Container br{display:none}
+.ShowCaseWrapper .Banner-Container img{width:100%}
+.ShowCaseWrapper.Big .overlay{position:absolute;bottom:0;top:0;left:0;right:0;background:rgba(0,0,0,0.2);z-index:8}
+.edit-mode .overlay{display:none}
+.edit-mode h1.BannerTitle{position:relative;color:#333!important}
+.Banner-Container{height:100%}
+.Banner-Container img{width:100%}
+.MainVideoWrapper{position:relative}
+.MainVideoWrapper .ms-rtestate-field{margin-bottom:0!important;line-height:0!important}
+#ShowCaseBannerVideo{height:100%;max-height:600px;line-height:0}
+.VideoPlaceholder{position:absolute;top:0;width:100%;z-index:1;display:block}
+.Overlay-wrapper{position:absolute;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,0.5);z-index:3}
+.Overlay-wrapper .TagLine{position:relative;color:#fff;margin:0 auto;display:block;width:100%;text-align:center;top:50%;margin-top:-70px;line-height:75px!important}
+#ShowcaseVideo{width:100%;z-index:2;position:relative}
+.HomePageCaseStudies{padding:40px 0}
+.HomePageCaseStudies .Heading{text-align:center;padding-bottom:20px}
+.HomePageCaseSTudies .CaseStudyItem{margin:0;position:relative}
+.HomePageCaseStudies .CaseStudyItem .ImageContainer{margin:0;position:relative}
+.HomePageCaseStudies .CaseStudyItem .Content{position:absolute;left:0;right:0;bottom:0}
+.HomePageCaseStudies .CaseStudyItem .Content .Title{margin:0 15px 10px}
+.HomePageCaseStudies .CaseStudyItem .Content .Title a{color:#fff;display:block;text-align:center;font-family:SourceSans-Bold}
+.HomePageCaseStudies .CaseStudyItem .ImageContainer .RegularOverlay{position: absolute;display: block;left: 0;right: 0;top: 0;bottom: 0;background: rgba(0,0,0,0.2)}
+.HomePageNews{padding:40px 0;color:#fff!important}
+.HomePageNews .InsightItem{padding-bottom:30px}
+.HomePageNews .heading{margin-bottom:30px;position:relative}
+.HomePageNews .heading h2{color:#fff!important}
+.HomePageNews .heading .AllNewsLink{position:absolute;right:0;top:0}
+.HomePageNews .Title{color:#fff}
+.HomePageNews .date{font-size:12px;color: #ddd;}
+.HomePageCareers{padding:50px 0}
+#MainContent{z-index:8}
+.CenterAlign{text-align:center;width:75%;margin:0 auto;padding:50px 0 20px}
+.officeCenterAlign{text-align:center;width:75%;margin:0 auto;padding:15px 0 20px}
+.padding-top{padding-top:30px}
+.padding-bottom{padding-bottom:30px}
+.HowItWorks{color:#fff!important;padding: 60px 0 30px;}
+.HowItWorks h2{color:#fff!important}
+.HowItWorks .contentblocks p{width:50%;display:inline-block;vertical-align:top;margin-right:-4px}
+.HowItWorks .contentblocks p:nth-child(odd){padding-right:20px}
+#Offerings{padding:50px 0}
+#Offerings .MiddleHeading{text-align:center}
+#Offerings .OfferingsWrapper{padding-top:30px}
+#Offerings .OfferingsWrapper .OfferingItem{margin: 50px 0 40px}
+#Offerings .OfferingsWrapper .OfferingItem .IconContainer{height:75px;margin-bottom:20px}
+#Offerings .OfferingsWrapper .OfferingItem .IconContainer img{height:100%;display:block;margin:0 auto}
+#Offerings .OfferingsWrapper .OfferingItem .Copy{text-align:center}
+#Offerings .OfferingsWrapper .OfferingItem .Copy h5{margin-bottom:20px}
+.TrustMarkers{margin:50px 0 30px}
+.TrustMarkers .Heading{text-align:center;margin-bottom:50px}
+.TrustMarkers .Heading p{max-width:70%;margin:0 auto}
+.TrustMarkers .Markers .Trust-marker{height:200px}
+.TrustMarkers .Markers .Trust-marker .Icon{height:60px;margin-bottom:20px;display:flex;align-items:center;justify-content:center}
+.TrustMarkers .Markers .Trust-marker .Icon img{margin:0 auto;display:block}
+.TrustMarkers .Markers .Trust-marker .Copy{text-align:center}
+.InsightsListing{padding-bottom:30px}
+.InsightsListing .Featured{padding-bottom:40px}
+.InsightsListing .Featured .FeaturedItem{padding-bottom:40px}
+.InsightsListing .Featured .FeaturedItem .ImageContainer{margin-bottom:20px}
+.InsightsListing .Featured .FeaturedItem .ImageContainer img{width:100%}
+.InsightsListing .Featured .FeaturedItem .date{font-size:12px;color:#a2aab2}
+.InsightsListing .InsightItem{padding-top:50px;padding-bottom:40px}
+.InsightsListing .InsightItem:before{content:"";height:1px;width:60%;background:#b5bbc1;position:absolute;top:0}
+.InsightsListing .InsightItem .date{font-size:12px;color:#a2aab2}
+.Article-Attributes{font-size:11px;color:#455565!important;margin-bottom:20px}
+.Articles-Content{line-height:20px}
+.CaseStudyItem{margin:30px 0 30px}
+.CaseStudyItem .ImageContainer{display:block;width:100%;margin-bottom:30px;position:relative}
+.CaseStudyItem .ImageContainer img{width:100%}
+.CaseStudyItem .ImageContainer .PlayOverlay{position:absolute;display:block;left:0;right:0;top:0;bottom:0;background:rgba(0,0,0,0.2) url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Play.svg) no-repeat center center}
+.CaseStudyItem .ImageContainer .PlayOverlay:hover{cursor:pointer}
+.CaseStudy-Modal .modal-dialog{max-width:70%;margin:0 auto;height:70%;margin-top:100px}
+.CaseStudy-Modal .modal-dialog .modal-content{height:100%}
+.CaseStudy-Modal .modal-dialog .modal-content iframe{height:100%!important;width:100%!important;position:absolute;left:0;right:0;top:0;bottom:0}
+.LeadershipListing{padding-bottom:50px}
+.LeadershipListing .Image {padding-bottom:10px}
+.LeadershipListing .Image img{width:100%}
+.LeadershipListing .Content .Name{margin-bottom:0;}
+.LeadershipListing .Content .Title{color: #888;margin-bottom: 13px;font-style: italic;}
+.LeadershipListing .Content .ReadMoreButton{color:#0784c1!important;font-size:18px;background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Blue-arrow-down.svg) no-repeat left center;text-indent:20px;display:inline-block;margin-top:5px}
+.LeadershipListing .Content .ReadLessButton{color:#0784c1!important;font-size:18px;background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Blue-arrow-up.svg) no-repeat left center;text-indent:20px;display:inline-block;margin-top:5px}
+.LeadershipListing .Content .ReadMoreButton:hover,.LeadershipListing .Content .ReadLessButton:hover{cursor:pointer;text-decoration:underline}
+.CareersVideo{height:500px}
+.TopEmployer{padding: 40px 0 20px}
+.TopEmployer img{width:100%;margin-bottom: 20px;max-width:200px;}
+#ContactForm{padding-bottom:40px}
+#ContactForm .form-group{margin-bottom:10px}
+#ContactForm .form-group .form-control{min-height:40px;border-color:#ccc;padding:0;padding-left:35px}
+#ContactForm .form-group .form-control#Name,#ContactForm .form-group .form-control#Surname{background:#fff url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Contact-Us/Field-first-LastName.svg) no-repeat left 8px center}
+#ContactForm .form-group .form-control#Telephone{background:#fff url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Contact-Us/Field-Contact.svg) no-repeat left 8px center}
+#ContactForm .form-group .form-control#Email{background:#fff url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Contact-Us/Field-Email.svg) no-repeat left 8px center}
+#ContactForm .form-group .form-control#MultiLine{background:#fff url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/Contact-Us/Field-Comment.svg) no-repeat left 8px top 8px}
+.ContactOffice{padding-bottom:30px}
+.ContactOffice h2{margin-bottom:30px}
+.ContactOffice .ContactOfficeContainer{border:1px solid #b5bbc1;margin-bottom:20px}
+.ContactOffice .ContactOfficeContainer .ContactDetails{padding:30px}
+.ContactMap iframe{width:100%}
+.SitemapContainer{padding-bottom:40px;}
+.PartnersButtons a {margin-bottom: 10px;}
+#Footer{height:335px;background:#455566}
+#Footer .FooterTop{height:285px}
+#Footer .FooterTop .LogoSection{padding:30px 0;border-bottom:1px solid #fff;margin-bottom:30px}
+#Footer .Links{display:-webkit-box;display:-moz-box;display:-ms-flexbox;display:-webkit-flex;display:flex}
+#Footer .Links .LinksWrapper{-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-column-count:2;-moz-column-count:2;-o-column-count:2;column-count:2;width:100%}
+#Footer .Links .LinksWrapper .FooterLinks{display:inline-block;vertical-align:top;margin-right:-4px;width:100%;font-size:18px;font-family:'SourceSans-Bold';color:#f3f3f4;padding:5px 0}
+#Footer .Social{width:70%;float:right}
+#Footer .Social h6{color:#f3f3f4}
+#Footer .Social .social-links{padding:0;list-style-type:none;margin-top:15px}
+#Footer .Social .social-links li{display:inline-block;vertical-align:top;margin-right:-4px;width:25%}
+#Footer .Social .social-links li a{display:block;height:18px;width:100%;color:#fff;font-size:11px;text-indent:27px}
+#Footer .Social .social-links li a.linkedin{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/LinkedIn_logo.svg) no-repeat left center}
+#Footer .Social .social-links li a.linkedin:hover{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/LinkedIn_logo_hover.svg) no-repeat left center}
+#Footer .Social .social-links li a.twitter{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/twitter_logo.svg) no-repeat left center}
+#Footer .Social .social-links li a.twitter:hover{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/twitter_logo_hover.svg) no-repeat left center}
+#Footer .Social .social-links li a.facebook{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/Facebook_logo.svg) no-repeat left 8px center}
+#Footer .Social .social-links li a.facebook:hover{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/Facebook_logo_hover.svg) no-repeat left 8px center}
+#Footer .Social .social-links li a.youtube{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/YouTube_logo.svg) no-repeat left center}
+#Footer .Social .social-links li a.youtube:hover{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/SocialIcons/YouTube_logo_hover.svg) no-repeat left center}
+#Footer .FooterBottom{height:50px;background:#374550}
+#Footer .FooterBottom .FooterMiniLinks{list-style-type:none;padding:0;margin:15px 0;color:#fff;font-size:12px}
+#Footer .FooterBottom .FooterMiniLinks li{display:inline-block;vertical-align:top;margin:0 10px}
+#Footer .FooterBottom .FooterMiniLinks li:first-child{margin-left:0}
+#Footer .FooterBottom .FooterMiniLinks li:last-child{margin-right:0}
+#Footer .FooterBottom .FooterMiniLinks li a{color:#fff;font-size:12px}
+#Footer .FooterBottom .copywrite{display:block;font-size:12px;color:#fff;float:right;margin:17px 0}
+#AuthContainer{position:absolute;right:15px;bottom:15px;height:20px;width:20px}
+#AuthContainer .ms-signInLink{display:block;height:100%;width:100%;font-size:0;background:transparent url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/lock.png) no-repeat center center;background-size:contain}
+#BackToTop{position:fixed;right:20px;bottom:70px;height:40px;width:40px;padding:0;display:none;z-index:999}
+#BackToTop img{margin-top:-8px}
+@media (min-width: 1400px) {
+.container{max-width:1400px}
+}
+@media (max-width: 1400px) {
+h1.BannerTitle{top:20%;width:75%;margin-left:-37%}
+}
+@media (max-width: 1200px) {
+nav.navbar .navbar-nav .nav-item{height:100%}
+nav.navbar .navbar-nav .nav-item .nav-link{font-size:16px;padding:25px 20px 24px 15px}
+nav.navbar .navbar-nav .nav-item .nav-link:hover{padding:25px 20px 21px 15px}
+nav.navbar .navbar-nav .nav-item .dropdown-toggle{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/DownArrow-White.svg) no-repeat right 5px top 31px}
+nav.navbar .navbar-nav .nav-item.show .dropdown-toggle{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/UpArrow-Grey.svg) no-repeat right 5px top 31px}
+.tabs .tab-wrapper a{font-size:16px;padding:15px 10px 15px 0}
+.tabs .tab-wrapper a.selected{padding:15px 10px 14px 0}
+.tabs .content a{font-size:14px}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TopicSection,nav.navbar .navbar-nav .nav-item .dropdown-menu .FeaturedSection{display:none}
+h1.BannerTitle{font-size:50px;line-height:50px!important;top:20%;width:75%;margin-left:-37%}
+}
+@media (max-width: 990px) {
+#Ribbonrow,#BreadCrumb{display:none}
+#Header{position:relative}
+.HeaderContainer .Logo{position:absolute;z-index:5}
+.NavButtonWrapper{display:block;height:65px;width:100%}
+.NavButtonWrapper .navbar-toggler{float:right;height:40px;margin:12px 0}
+.NavButtonWrapper .navbar-toggler:focus,.NavButtonWrapper .navbar-toggler:active{outline:none;border:0}
+.NavButtonWrapper .navbar-toggler .navbar-toggler-icon{height:3px;width:30px;background:#fff;vertical-align:top}
+.NavButtonWrapper .navbar-toggler .navbar-toggler-icon:before{height:3px;width:30px;background:#fff;content:'';display:block;margin-top:9px}
+.NavButtonWrapper .navbar-toggler .navbar-toggler-icon:after{height:3px;width:30px;background:#fff;content:'';display:block;margin-top:6px}
+nav.navbar{padding:0;position:absolute;left:0;right:0;line-height:8px}
+nav.navbar .navbar-nav{height:100%;background:#fff;box-shadow:0 4px 10px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19)}
+nav.navbar .navbar-collapse{position:relative}
+nav.navbar .navbar-nav .nav-item .nav-link{color:#455565}
+nav.navbar .navbar-nav .nav-item .dropdown-toggle{background:url(https://www.britehouse.co.za//_catalogs/masterpage/Britehouse/images/RightArrow-Grey.svg) no-repeat right 10px center}
+nav.navbar .navbar-nav .nav-item .dropdown-menu{position:absolute;top:0;width:0;overflow:hidden;min-width:0;box-shadow:none}
+nav.navbar .navbar-nav .nav-item .dropdown-menu.show{width:100%;height:100%;padding:15px}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .MobileBack{display:none;display:block;margin:0 15px 15px;font-size:18px}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .dropdown-inner{height:100%}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TopicSection,nav.navbar .navbar-nav .nav-item .dropdown-menu .FeaturedSection{display:none}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TabWrapper .tab-wrapper{height:100%;width:100%;border:0 none}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TabWrapper .tab-wrapper a{width:100%;padding:18px 0}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TabWrapper .content.visible{width:100%;background:#fff;padding:0}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .TabWrapper .content.visible .secondlevel-header{display:block}
+.secondlevel-header .SecondLevel-MobileBack{font-size:18px!important;padding-top:0!important;margin:0}
+.secondlevel-header h3{padding:0}
+.secondlevel-header h3 .DropdownHeading{font-size:26px!important;padding:0!important;line-height: 24px;}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .tabs .content a{width:100%;padding:16px 0;font-size:16px}
+nav.navbar .navbar-nav .nav-item .dropdown-menu .ServicesTabs.tabs .content.wide a.subtab-link {width: 50%; padding: 5px 0; font-size:13px;}
+.CenterAlign{width:100%}
+.MainVideoWrapper{position:relative}
+.MainVideoWrapper div{display:block}
+#ShowCaseBannerVideo{max-height:305px;overflow:hidden;height: 305px;position:relative}
+#ShowCaseBannerVideo .VideoPlaceholder{position: relative;top: 0;width: auto;z-index: 1;display: block;bottom: 0;height: 100%;margin-left: -25%;}
+#ShowCaseBannerVideo #ShowcaseVideo{width: auto;max-height: 305px;height: 309px;margin-left: -20%;position: absolute;top: 0;}
+.ShowCaseWrapper{height:235px}
+.ShowCaseWrapper div{height:100%;display:block;overflow:hidden}
+.Banner-Container img{height:100%;width:auto!important}
+h1.BannerTitle{font-size:40px;line-height:39px!important;top:20%;width:75%;margin-left:-37%}
+.CaseStudy-Modal .modal-dialog .modal-content{height:100%;max-height:300px}
+.HomePageNews .heading h2 {padding-top:25px}
+#Footer .Social{width:100%}
+#Footer .Social .social-links li{width:50%;margin-bottom:10px}
+#Footer .FooterBottom{height:75px}
+#Footer .FooterBottom .copywrite{float:none;margin:0 0 9px}
+}
+@media (max-width: 768px) {
+.ShowCaseWrapper{height:200px}
+.ShowCaseWrapper div{height:100%;display:block}
+.ShowCaseWrapper .Banner-Container img{height:100%;width:auto}
+#ShowCaseBannerVideo #ShowcaseVideo{width:auto;max-height:305px;height:100%;margin-left: -20%;}
+#Footer .FooterTop{height:330px}
+#Footer .FooterTop .LogoSection{margin-bottom:20px}
+#Footer .Links .LinksWrapper .FooterLinks{font-size:16px}
+#Footer .Social{margin-top:20px}
+#Footer .Social .social-links li{width:25%;margin-bottom:10px}
+#Footer .FooterBottom{height:50px}
+#Footer .FooterBottom .FooterMiniLinks{display:none}
+#Footer .FooterBottom .copywrite{float:none;margin:17px 0}
+}
+@media (max-width: 600px) {
+.ShowCaseWrapper .Banner-Container img{margin-left:-25%}
+.ShowCaseWrapper .Banner-Container.SpecialBanner img{margin-left:-40%}
+h1.BannerTitle{width:100%;margin-left:-50%}
+.Overlay-wrapper .TagLine{font-size:45px!important;width:90%;top:30%;margin-top:-54px}
+}
+@media (max-width: 400px) {
+.ShowCaseWrapper .Banner-Container.SpecialBanner img{margin-left:-60%}
+}
+/*Pre-Onboarding*/
+h2.pageTitle{margin:40px 0 0;}
+.officeListing .CaseStudyItem{margin:0 0 30px 0;}
+.officeListing .CaseStudyItem .ImageContainer{margin-bottom: 10px;}
+.officeListing .CaseStudyItem .ImageContainer img{max-height:278px;}
+.preOnboarding.TopEmployer{margin-bottom:0;}
+.TopEmployer img.preOnboarding{margin-bottom:0;}
+.welcomeMessage {
+	margin: 30px 0 0;
+}
+.welcomeMessage .welcomeMessageContent .welcomeMessageText{
+	margin: 15px 0 20px;	
+}
+.welcomeMessage .welcomeMessageContent .imageContainer .roundImage {
+    width: 255px;
+    height: 255px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin:auto;
+}
+
+.welcomeMessage .welcomeMessageContent .imageContainer .roundImage img{
+	width: 430px;
+	margin-left: -170px;
+	margin-top:-20px;
+}
+
+.welcomeMessage .welcomeMessageContent .imageContainer .Content{
+	margin-top:10px;
+	text-align:center;
+}
+
+.welcomeMessage .welcomeMessageContent .imageContainer .Content .Title{
+	margin: 0;
+}
+
+.FAQ .faqContainer{
+	margin-bottom:40px;
+}
+
+.FAQ .faqContainer img{
+	width:100%;	
+}
+
+.FAQ .faqContainer .parkingTable{
+	display:block;
+	line-height:18px;
+}
+
+.FAQ .faqContainer .parkingTable tr{
+	border: 1px solid #888;
+}
+
+.FAQ .faqContainer .parkingTable tr td, .FAQ .faqContainer .parkingTable tr th{
+	padding: 10px 5px;
+	border-right: 1px solid #888;
+	width:100%;
+}
+
+.CampusFacilities .Featured .FeaturedItem .ContentContainer .descriptionContainer{
+    min-height: 175px;
+}
+.CampusFacilities .Featured .middle{
+	text-align:center;
+}
+#imageGallery h4{margin-bottom:15px;}
+#imageGallery img{width:100%;max-height:205px;margin-bottom:5px;}
+#Footer .FooterTop.preOnboardingFooter{height:113px;}
+#Footer.preOnboardingFooter{height:150px;}
+#Footer .FooterTop .LogoSection.logoNoLine{border:none;}
+.CampusFacilities{
+	padding:0;
+}
+
+.CampusFacilities .Featured #campusFacilities .row div:nth-child(-n+4) .ContentContainer .descriptionContainer{
+	min-height:90px;
+}
+
+@media (max-width: 990px) {
+	.officeListing .CaseStudyItem .ImageContainer img {
+		max-height:none;
+	}
+
+	#imageGallery img{
+		max-height:none;
+	}
+	
+	.InsightsListing .Featured .FeaturedItem {
+		padding-bottom:60px;
+	}
+	
+	.CampusFacilities .Featured .FeaturedItem .ContentContainer .descriptionContainer{
+		min-height: 50px;
+	}
+	
+	#Footer.preOnboardingFooter{
+		height:250px;
+	}
+	
+	#Footer .FooterTop.preOnboardingFooter {
+    	height: 185px;
+	}
+	#Footer.preOnboardingFooter .Social{
+		margin:20px 0;
+	}
+	
+	#Footer.preOnboardingFooter .Social .social-links li{
+		width:25%;
+	}
+	
+	#Footer.preOnboardingFooter .FooterBottom .copywrite{
+		margin:25px 0;
+	}
+	
+	#Footer.preOnboardingFooter .FooterBottom{
+		height:75px;
+	}
+}
+
+@media (max-width: 475px) {
+	.parkingTable tbody{
+	font-size:12px;
+}
+}
